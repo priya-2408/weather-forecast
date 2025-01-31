@@ -10,13 +10,13 @@ Preprocessing techniques such as data normalization, handling missing values, an
 2. Model Selection & Training :
 RNNs and LSTMs are particularly effective in time-series forecasting as they maintain memory of past data, making them well-suited for predicting weather trends based on historical records.Other machine learning models such as Random Forest, XGBoost, and CNNs (for satellite image-based weather analysis) may also be integrated to improve accuracy.
 
- 3.Optimization & Performance Evaluation:
+ 3. Optimization & Performance Evaluation:
 The system is fine-tuned using various error metrics, including:
 -Mean Absolute Error (MAE) – Measures the average magnitude of errors.
 -Root Mean Squared Error (RMSE) – Evaluates prediction accuracy by penalizing larger errors more significantly.
 -Mean Squared Error (MSE) and R² Score – Assess overall model fit and variance explained.
 Hyperparameter tuning techniques such as Grid Search, Bayesian Optimization, and Genetic Algorithms help enhance model efficiency.
 
-4.Real-Time Forecasting & Deployment:
+4. Real-Time Forecasting & Deployment:
 The trained model is deployed via cloud-based or edge computing platforms, allowing real-time weather predictions.
 The system integrates with mobile applications, web dashboards, and APIs, enabling seamless access for users.
