@@ -12,9 +12,9 @@ RNNs and LSTMs are particularly effective in time-series forecasting as they mai
 
  3. Optimization & Performance Evaluation:
  The system is fine-tuned using various error metrics, including:
-   I)Mean Absolute Error (MAE) – Measures the average magnitude of errors.
-  II)Root Mean Squared Error (RMSE) – Evaluates prediction accuracy by penalizing larger errors more significantly.
- III)Mean Squared Error (MSE) and R² Score – Assess overall model fit and variance explained.
+   I) Mean Absolute Error (MAE) – Measures the average magnitude of errors.
+  II) Root Mean Squared Error (RMSE) – Evaluates prediction accuracy by penalizing larger errors more significantly.
+ III) Mean Squared Error (MSE) and R² Score – Assess overall model fit and variance explained.
 Hyperparameter tuning techniques such as Grid Search, Bayesian Optimization, and Genetic Algorithms help enhance model efficiency.
 
 4. Real-Time Forecasting & Deployment:
